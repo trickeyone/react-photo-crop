@@ -1,0 +1,21 @@
+{
+  "name": "react-photo-crop-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.jsx",
+  "scripts": {
+    "start": "watchify js/app.jsx -t reactify -o js/bundle.js -v -d"
+  },
+  "author": "Josh England <josh@joshengland.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "classnames": "^2.1.2",
+    "events": "^1.0.2",
+    "jsonp": "^0.2.0",
+    "keymirror": "^0.1.1",
+    "lodash.throttle": "^3.0.3",
+    "object-assign": "^2.0.0",
+    "reactify": "^1.1.1",
+    "watchify": "^3.2.1"
+  }
+}
